@@ -10,14 +10,14 @@ public class City extends DataSupport {
     private int id;
     private String cityName;
     private int cityCode;
-    private int provincId;
+    private int provinceId;
 
-    public int getProvincId() {
-        return provincId;
+    public int getProvinceId() {
+        return provinceId;
     }
 
-    public void setProvincId(int provincId) {
-        this.provincId = provincId;
+    public void setProvinceId(int provinceId) {
+        this.provinceId = provinceId;
     }
 
     public int getCityCode() {
